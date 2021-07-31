@@ -6,6 +6,8 @@ Introdução a banco de dados (Mongodb)
 
 MongoDB é um banco de dados não relacional (noSQL) que armazena e consulta dados do tipo JSON. 
 
+Um banco de dados não relacional é um banco de dados que não usa o esquema de tabela de linhas e colunas encontrado na maioria dos sistemas de banco de dados tradicionais. Em vez disso, os bancos de dados não relacionais usam um modelo de armazenamento otimizado para os requisitos específicos do tipo de dados que está sendo armazenado. 
+
 ### Instalação e inicialização
 
 1. Fazer o download do [Mongodb](https://www.mongodb.com/try/download/community) e realizar a instalação;
@@ -56,5 +58,8 @@ ou `db.Consultas.remove({selecao})`
 `db.nomedacollection.find().sort({<key>:1})`
 
 
-
+### Fontes:
+[Reprograma](https://github.com/reprograma/On12-s12-BD) <br>
+[Microsoft](https://docs.microsoft.com/pt-br/azure/architecture/data-guide/big-data/non-relational-data) <br>
+[Stackoverflow](https://stackoverflow.com/questions/20796714/how-do-i-start-mongo-db-from-windows) <br>
 
