@@ -21,16 +21,25 @@ Um banco de dados não relacional é um banco de dados que não usa o esquema de
 
 ### Usando Robo 3t
 
-Clicar com o lado direito em cima do Collections e "Criar uma nova connection".
+Clicar com o lado direito em cima do Collections e "Criar uma nova connection". Por exemplo, "Series".
 
 ##### Visualiza o que contém na Collections
 
-`db.getCollection('NOME').find({})`
+`db.getCollection('Series').find({})`
 
 ##### Adicionar documento na Collections
 
-Clica com o lado direito em cima da pasta Collections e cria uma nova
-
+Clica com o lado direito em cima da pasta Collections e cria uma nova. Vai abrir um arquivo JSON para colocar as informações, exemplo:
+```
+{
+    "How To Get Away With a Murderer" : { 
+            "Temporadas": "6",
+            "Genero": "Mistério, drama",
+            "Assistir": "Netflix"
+    }
+    
+ }
+```
 ##### Consultar documento
 
 `db.nomedacollection.find({selecao})`
